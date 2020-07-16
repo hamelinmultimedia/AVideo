@@ -21,8 +21,8 @@
             </div>
             <hr>
             <ul class="nav nav-tabs">
-                <li class="active"><a data-toggle="tab" href="#usersTab">Users</a></li>
-                <li><a data-toggle="tab" href="#inactiveUsersTab">Inactive Users</a></li>
+                <li class="active"><a data-toggle="tab" href="#usersTab"><?php echo __("User"); ?></a></li>
+                <li><a data-toggle="tab" href="#inactiveUsersTab"><?php echo __("Inactive Users"); ?></a></li>
             </ul>
             <div class="tab-content">
                 <div id="usersTab" class="tab-pane fade in active">
